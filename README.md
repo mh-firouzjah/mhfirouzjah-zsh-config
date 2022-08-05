@@ -3,7 +3,7 @@
 inspired by [Manjaro ZSH Config](https://github.com/Chrysostomus/manjaro-zsh-config)  
 This config works for WSL too, the following image is a screenshot of my debian wsl.
 
-![debian-wsl]("./screenshot.png")
+![debian-wsl]("https://github.com/mh-firouzjah/mhfirouzjah-zsh-config/img/screenshot.png")
 
 ## Install
 
