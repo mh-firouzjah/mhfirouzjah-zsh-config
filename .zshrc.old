@@ -150,8 +150,8 @@ if [[ -r /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.
     source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 elif [[ -r /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]; then
     source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-elif [[ -r /home/$USER/mhfirouzjah-zsh-config/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]; then
-    source /home/$USER/mhfirouzjah-zsh-config/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+elif [[ -r /home/$USER/.mhfirouzjah-zsh-config/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]; then
+    source /home/$USER/.mhfirouzjah-zsh-config/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
 
 # Use history substring search
@@ -159,8 +159,8 @@ if [[ -r /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substri
     source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 elif [[ -r /usr/share/zsh-history-substring-search/zsh-history-substring-search.zsh ]]; then
     source /usr/share/zsh-history-substring-search/zsh-history-substring-search.zsh
-elif [[ -r /home/$USER/mhfirouzjah-zsh-config/zsh-history-substring-search/zsh-history-substring-search.zsh ]]; then
-    source /home/$USER/mhfirouzjah-zsh-config/zsh-history-substring-search/zsh-history-substring-search.zsh
+elif [[ -r /home/$USER/.mhfirouzjah-zsh-config/zsh-history-substring-search/zsh-history-substring-search.zsh ]]; then
+    source /home/$USER/.mhfirouzjah-zsh-config/zsh-history-substring-search/zsh-history-substring-search.zsh
 fi
 # bind UP and DOWN arrow keys to history substring search
 zmodload zsh/terminfo
@@ -200,8 +200,8 @@ case $(basename "$(cat "/proc/$PPID/comm")") in
       source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
     elif [[ -r /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]]; then
         source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-    elif [[ -r /home/$USER/mhfirouzjah-zsh-config/zsh-autosuggestions/zsh-autosuggestions.zsh ]]; then
-        source /home/$USER/mhfirouzjah-zsh-config/zsh-autosuggestions/zsh-autosuggestions.zsh
+    elif [[ -r /home/$USER/.mhfirouzjah-zsh-config/zsh-autosuggestions/zsh-autosuggestions.zsh ]]; then
+        source /home/$USER/.mhfirouzjah-zsh-config/zsh-autosuggestions/zsh-autosuggestions.zsh
     fi
 		ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
   		ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
