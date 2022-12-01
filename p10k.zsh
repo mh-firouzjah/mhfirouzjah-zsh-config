@@ -176,7 +176,7 @@
 
   #################################[ os_icon: os identifier ]##################################
   # OS identifier color. range 0-255 manjaro=30, debian=88
-  typeset -g POWERLEVEL9K_OS_ICON_FOREGROUND=125
+  typeset -g POWERLEVEL9K_OS_ICON_FOREGROUND=4
   typeset -g POWERLEVEL9K_OS_ICON_BACKGROUND=7
   # Custom icon.
   # typeset -g POWERLEVEL9K_OS_ICON_CONTENT_EXPANSION='⭐'
@@ -206,7 +206,7 @@
 
   ##################################[ dir: current directory ]##################################
   # Current directory background color.
-  typeset -g POWERLEVEL9K_DIR_BACKGROUND=60
+  typeset -g POWERLEVEL9K_DIR_BACKGROUND=4
   # Default current directory foreground color.
   typeset -g POWERLEVEL9K_DIR_FOREGROUND=254
   # If directory is too long, shorten some of its segments to the shortest possible unique
